@@ -156,7 +156,7 @@ int main()
 	            printf("%d\t", frames[j]);
 	        }
 	    }	    
-	    printf("\nSố trang lỗi là: %d\n",count);
+	    printf("\nNumber of Page Fault: %d\n",count);
 		break;
 		case 3:
 		printf("LRU algorithm\n");    
@@ -225,7 +225,7 @@ int main()
                   printf("%d\t", frames[i]);
             }
       }
-      printf("\nSố trang lỗi là: %d\n",count);
+      printf("\nNumber of Page Fault: %d\n",count);
 			
 	}
 }
